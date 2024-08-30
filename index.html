@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body class="max-w-[1920px] mx-auto">
+<!--HEADER-->
+<header class="bg-white flex justify-between items-center px-8 py-2">
+    <img src="./assets/icons/LogoBlue.svg" class="max-w-[111px]" alt="">
+    <div class="flex items-center h-fit">
+        <div class="flex gap-12 mr-20">
+            <p class="uppercase">о проекте</p>
+            <p class="uppercase">контакты</p>
+        </div>
+        <div class="px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white">Добавить объявление</div>
+    </div>
+</header>
+
+<!--SECTION/Telephone for call evacuator-->
+<section class="bg-[url('./assets/images/BGTruck.png')] flex justify-center items-center h-[142px]">
+    <h1 class="font-bold text-[50px] text-white">Телефоны для вызова эвакуатора в <span class="underline text-[#00A0E2]">Москве</span></h1>
+</section>
+
+<!--SECTION/Cards-->
+<section class="bg-[#F5F5F5] flex flex-col items-center pt-[94px] gap-[44px] pb-[80px] ">
+    <!--  Card  -->
+    <div class="bg-white flex flex-col gap-6 p-6 md:p-12 rounded-xl shadow-sm max-w-[1400px] w-full">
+        <h6 class="font-bold text-3xl">Эвакуатор</h6>
+
+        <div class="flex flex-col lg:flex-row gap-6">
+            <img src="./assets/images/WhiteTruck.png" alt="" class="w-full lg:w-1/2 lg:max-w-[414px] h-auto">
+
+            <div class="flex flex-col gap-3 w-full lg:w-1/2 lg:max-w-[490px]">
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Легковой автомобиль</span>
+                    <span class="text-[#777777] font-semibold text-xl">5 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Мотоцикл (квадроцикл и т.д.)</span>
+                    <span class="text-[#777777] font-semibold text-xl w-fit">3 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Внедорожник</span>
+                    <span class="text-[#777777] font-semibold text-xl">нет</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Микроавтобус</span>
+                    <span class="text-[#777777] font-semibold text-xl">нет</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Загородный тариф</span>
+                    <span class="text-[#777777] font-semibold text-xl">50 руб/км</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col min-w-[336px] w-full lg:max-w-[300px]">
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white">
+                    <img src="assets/icons/Vector.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white mt-3">
+                    <img src="assets/icons/OldPhone.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex flex-col gap-2 py-4 px-5 bg-[#FFF5CC] rounded-lg mt-[21px]">
+                    <div class="flex gap-1">
+                        <img src="/assets/icons/Geo.svg" alt="">
+                        <p class="text-[#777777] text-xl">Место стоянки</p>
+                    </div>
+                    <p class="text-xl">Москва, ул Пушкина</p>
+                </div>
+
+                <div class="flex flex-col justify-center items-center py-4 border-[1px] border-[#00A0E2] rounded-full text-[#0297D4] mt-[21px]">
+                    <p class="text-sm">ID объявления 63</p>
+                    <p class="underline">Заказать рекламу</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-xl">Эвакуатор авто. Всегда на связи! Быстро и надежно</p>
+    </div>
+    <div class="bg-white flex flex-col gap-6 p-6 md:p-12 rounded-xl shadow-sm max-w-[1400px] w-full">
+        <h6 class="font-bold text-3xl">Эвакуатор</h6>
+
+        <div class="flex flex-col lg:flex-row gap-6">
+            <img src="./assets/images/YellowTruck.png" alt="" class="w-full lg:w-1/2 lg:max-w-[414px] h-auto">
+
+            <div class="flex flex-col gap-3 w-full lg:w-1/2 lg:max-w-[490px]">
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Легковой автомобиль</span>
+                    <span class="text-[#777777] font-semibold text-xl">4 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Мотоцикл (квадроцикл и т.д.)</span>
+                    <span class="text-[#777777] font-semibold text-xl w-fit">3 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Внедорожник</span>
+                    <span class="text-[#777777] font-semibold text-xl">4 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Микроавтобус</span>
+                    <span class="text-[#777777] font-semibold text-xl">6 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Загородный тариф</span>
+                    <span class="text-[#777777] font-semibold text-xl">50 руб/км</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col min-w-[336px] w-full lg:max-w-[300px]">
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white">
+                    <img src="assets/icons/Vector.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white mt-3">
+                    <img src="assets/icons/OldPhone.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex flex-col gap-2 py-4 px-5 bg-[#FFF5CC] rounded-lg mt-[21px]">
+                    <div class="flex gap-1">
+                        <img src="/assets/icons/Geo.svg" alt="">
+                        <p class="text-[#777777] text-xl">Место стоянки</p>
+                    </div>
+                    <p class="text-xl">Москва, ул Пушкина</p>
+                </div>
+
+                <div class="flex flex-col justify-center items-center py-4 border-[1px] border-[#00A0E2] rounded-full text-[#0297D4] mt-[21px]">
+                    <p class="text-sm">ID объявления 63</p>
+                    <p class="underline">Заказать рекламу</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-xl">Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города.</p>
+    </div>
+    <div class="bg-white flex flex-col gap-6 p-6 md:p-12 rounded-xl shadow-sm max-w-[1400px] w-full">
+        <h6 class="font-bold text-3xl">Эвакуатор</h6>
+
+        <div class="flex flex-col lg:flex-row gap-6">
+            <img src="./assets/images/WhiteTruck.png" alt="" class="w-full lg:w-1/2 lg:max-w-[414px] h-auto">
+
+            <div class="flex flex-col gap-3 w-full lg:w-1/2 lg:max-w-[490px]">
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Легковой автомобиль</span>
+                    <span class="text-[#777777] font-semibold text-xl">5 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Мотоцикл (квадроцикл и т.д.)</span>
+                    <span class="text-[#777777] font-semibold text-xl w-fit">3 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Внедорожник</span>
+                    <span class="text-[#777777] font-semibold text-xl">нет</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Микроавтобус</span>
+                    <span class="text-[#777777] font-semibold text-xl">нет</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Загородный тариф</span>
+                    <span class="text-[#777777] font-semibold text-xl">50 руб/км</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col min-w-[336px] w-full lg:max-w-[300px]">
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white">
+                    <img src="assets/icons/Vector.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white mt-3">
+                    <img src="assets/icons/OldPhone.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex flex-col gap-2 py-4 px-5 bg-[#FFF5CC] rounded-lg mt-[21px]">
+                    <div class="flex gap-1">
+                        <img src="/assets/icons/Geo.svg" alt="">
+                        <p class="text-[#777777] text-xl">Место стоянки</p>
+                    </div>
+                    <p class="text-xl">Москва, ул Пушкина</p>
+                </div>
+
+                <div class="flex flex-col justify-center items-center py-4 border-[1px] border-[#00A0E2] rounded-full text-[#0297D4] mt-[21px]">
+                    <p class="text-sm">ID объявления 63</p>
+                    <p class="underline">Заказать рекламу</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-xl">Эвакуатор авто. Всегда на связи! Быстро и надежно</p>
+    </div>
+    <div class="bg-white flex flex-col gap-6 p-6 md:p-12 rounded-xl shadow-sm max-w-[1400px] w-full">
+        <h6 class="font-bold text-3xl">Эвакуатор</h6>
+
+        <div class="flex flex-col lg:flex-row gap-6">
+            <img src="./assets/images/YellowTruck.png" alt="" class="w-full lg:w-1/2 lg:max-w-[414px] h-auto">
+
+            <div class="flex flex-col gap-3 w-full lg:w-1/2 lg:max-w-[490px]">
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Легковой автомобиль</span>
+                    <span class="text-[#777777] font-semibold text-xl">4 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Мотоцикл (квадроцикл и т.д.)</span>
+                    <span class="text-[#777777] font-semibold text-xl w-fit">3 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Внедорожник</span>
+                    <span class="text-[#777777] font-semibold text-xl">4 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Микроавтобус</span>
+                    <span class="text-[#777777] font-semibold text-xl">6 000 руб</span>
+                </div>
+                <div class="bg-[#F2F4F8] rounded-md py-4 px-5 flex justify-between items-center gap-4">
+                    <span class="text-[#777777] text-xl">Загородный тариф</span>
+                    <span class="text-[#777777] font-semibold text-xl">50 руб/км</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col min-w-[336px] w-full lg:max-w-[300px]">
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white">
+                    <img src="assets/icons/Vector.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex gap-1 justify-center items-center font-semibold text-xl px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white mt-3">
+                    <img src="assets/icons/OldPhone.svg" alt="">
+                    +7 999 99 99
+                </div>
+                <div class="flex flex-col gap-2 py-4 px-5 bg-[#FFF5CC] rounded-lg mt-[21px]">
+                    <div class="flex gap-1">
+                        <img src="/assets/icons/Geo.svg" alt="">
+                        <p class="text-[#777777] text-xl">Место стоянки</p>
+                    </div>
+                    <p class="text-xl">Москва, ул Пушкина</p>
+                </div>
+
+                <div class="flex flex-col justify-center items-center py-4 border-[1px] border-[#00A0E2] rounded-full text-[#0297D4] mt-[21px]">
+                    <p class="text-sm">ID объявления 63</p>
+                    <p class="underline">Заказать рекламу</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-xl">Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города.</p>
+    </div>
+
+    <div class="flex gap-[18px] items-center">
+        <p class="flex justify-center items-center border-[1px] text-white rounded-lg border-[#00A0E2] bg-[#00A0E2] w-[36px] h-[36px] font-bold text-[26px]">1</p>
+        <p class="flex justify-center items-center border-[1px] text-[#00A0E2] rounded-lg border-[#00A0E2] w-[36px] h-[36px] font-bold text-[26px]">2</p>
+        <p class="flex justify-center items-center border-[1px] text-[#00A0E2] rounded-lg border-[#00A0E2] w-[36px] h-[36px] font-bold text-[26px]">3</p>
+        <p class="flex justify-center items-center border-[1px] text-[#00A0E2] rounded-lg border-[#00A0E2] w-[36px] h-[36px] font-bold text-[26px]">4</p>
+        <p class="flex justify-center items-center border-[1px] text-[#00A0E2] rounded-lg border-[#00A0E2] w-[36px] h-[36px] font-bold text-[26px]">
+            <img width="12" src="assets/icons/ArrowRight.svg" alt="">
+        </p>
+    </div>
+</section>
+
+<!--SECTION/Buy evacuator-->
+<section style="background-color: #F5F5F5" class="flex justify-center bg-[url('./assets/images/BGTruck.png')] bg-center bg-cover mt-[-8px]">
+    <div class="max-w-[1400px] flex items-center gap-16 p-6">
+        <img class="w-auto h-[99px]" src="/assets/icons/TruckWithCar.png" alt="">
+        <h1 class="text-white text-[40px] font-bold h-fit">Здесь может быть ваш эвакуатор</h1>
+        <div class="px-6 py-2 bg-[#00A0E2] rounded-full uppercase text-white h-fit">Добавить объявление</div>
+    </div>
+</section>
+
+<!--SECTION/Как вызвать эвакуатор в Москве дешево?-->
+<section class="max-w-[1400px] mt-[100px] mx-auto">
+    <div class="flex flex-col xl:flex-row gap-10">
+        <div class="flex flex-col gap-12">
+            <h1 class="max-w-[690px] text-[40px] font-bold">Как вызвать эвакуатор в Москве дешево?</h1>
+            <p class="max-w-[680px] text-[26px]">
+                Поломка авто или ДТП – случайностей на дороге много. Решение одно – вызвать эвакуатор и доставить неисправный автомобиль на СТО/парковку или в гараж в Москве. С помощью онлайн-сервиса Эварус вы сможете заказать услугу эвакуатора в Москве (Московской области) максимально быстро и при этом сэкономить.
+                Мы предоставляем доступ к базе коммерческих и частных эвакуаторов Москвы. Это надежные компании, которые оперативно пришлют спецтехнику вам на помощь и обеспечат безопасную транспортировку авто.
+            </p>
+        </div>
+        <img class="max-w-[677px] h-auto" src="assets/images/Thinking.png" alt="">
+    </div>
+</section>
+
+<!--SECTION/Что нужно знать, чтобы заказать эвакуатор в Москве-->
+<section class="bg-[#FFF5CC] pt-[100px] pb-[100px] mt-[100px]">
+    <div class="max-w-[1400px] mx-auto">
+        <h1 class="mb-[48px] font-bold text-[40px]">Что нужно знать, чтобы заказать эвакуатор в Москве</h1>
+        <div class="flex flex-col gap-10 md:flex-row">
+            <div class="max-w-[680px] flex flex-col gap-[32px]">
+                <img class="max-w-[347px] h-auto mx-auto" src="assets/images/Evacuator24.png" alt="">
+                <p class="text-[26px]">Заказы на вызов эвакуатора в Москве перевозчики-партнеры “Тут Эвакуатор” принимают круглосуточно. Когда бы вы не позвонили, эвакуатор найдется всегда. Размещая заказ на эвакуатор, ознакомьтесь с информацией о транспортной компании, проконсультируйтесь с ее специалистами и выберите оптимальный вариант перевозки своего ТС.</p>
+            </div>
+            <div class="max-w-[680px] flex flex-col gap-[32px]">
+                <img class="max-w-[320px] h-auto mx-auto" src="assets/images/CAR.png" alt="">
+                <p class="text-[26px]">Заказы на вызов эвакуатора в Москве перевозчики-партнеры “Тут Эвакуатор” принимают круглосуточно. Когда бы вы не позвонили, эвакуатор найдется всегда. Размещая заказ на эвакуатор, ознакомьтесь с информацией о транспортной компании, проконсультируйтесь с ее специалистами и выберите оптимальный вариант перевозки своего ТС.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SECTION/Что входит в стоимость перевозки эвакуатором-->
+<section class="bg-[#F5F5F5] pt-[100px] pb-[100px]">
+    <div class="max-w-[1400px] mx-auto">
+        <h1 class="mb-[48px] font-bold text-[40px]">Что входит в стоимость перевозки эвакуатором</h1>
+        <p class="text-[26px] mb-[26px]">Стоимость эвакуации включает в себя оплату услуг по погрузке, перевозке и выгрузке авто, а также по подаче эвакуатора в пункт дислокации ТС в Москве.</p>
+        <p class="text-[26px] font-bold mb-[74px]">При формировании цены перевозчики берут в расчет четыре аспекта:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20 sm:gap-14 lg:gap-8">
+            <div class="bg-[#0297D4] px-5 rounded-[20px]">
+                <img class="rounded-full bg-[#0297D4] mx-auto mt-[-50px] p-6" src="assets/icons/TruckWithBox.svg" alt="">
+                <p class="text-xl text-white mb-[17px] font-bold text-center">Грузоподъемность эвакуатора</p>
+                <p class="text-lg text-white text-center pb-[20px]">
+                    Чем мощнее эвакуатор, тем дороже обходится ее эксплуатация, ем внушительнее будет сумма к оплате эвакуации
+                </p>
+            </div>
+            <div class="bg-[#0297D4] px-5 rounded-[20px]">
+                <img class="rounded-full bg-[#0297D4] mx-auto mt-[-50px] p-6" src="assets/icons/TruckWithBox.svg" alt="">
+                <p class="text-xl text-white mb-[17px] font-bold text-center">Грузоподъемность эвакуатора</p>
+                <p class="text-lg text-white text-center pb-[20px]">
+                    Чем мощнее эвакуатор, тем дороже обходится ее эксплуатация, ем внушительнее будет сумма к оплате эвакуации
+                </p>
+            </div>
+            <div class="bg-[#0297D4] px-5 rounded-[20px]">
+                <img class="rounded-full bg-[#0297D4] mx-auto mt-[-50px] p-6" src="assets/icons/TruckWithBox.svg" alt="">
+                <p class="text-xl text-white mb-[17px] font-bold text-center">Грузоподъемность эвакуатора</p>
+                <p class="text-lg text-white text-center pb-[20px]">
+                    Чем мощнее эвакуатор, тем дороже обходится ее эксплуатация, ем внушительнее будет сумма к оплате эвакуации
+                </p>
+            </div>
+            <div class="bg-[#0297D4] px-5 rounded-[20px]">
+                <img class="rounded-full bg-[#0297D4] mx-auto mt-[-50px] p-6" src="assets/icons/TruckWithBox.svg" alt="">
+                <p class="text-xl text-white mb-[17px] font-bold text-center">Грузоподъемность эвакуатора</p>
+                <p class="text-lg text-white text-center pb-[20px]">
+                    Чем мощнее эвакуатор, тем дороже обходится ее эксплуатация, ем внушительнее будет сумма к оплате эвакуации
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SECTION/Преимущества онлайн-сервиса ТутЭвакуатор.Ру-->
+<section class="bg-white pt-[100px]">
+    <div class="max-w-[1400px] mx-auto">
+        <h1 class="mb-[48px] font-bold text-[40px]">Преимущества онлайн-сервиса ТутЭвакуатор.Ру</h1>
+        <p class="text-[26px] mb-[26px]">ТутЭвакуатор.Ру – это удобный сервис для тех, кому нужно недорого и быстро перевезти авто с техническими неисправностями или же с повреждениями, полученными при ДТП в Москве</p>
+        <p class="text-[26px] font-bold mb-[32px]">Воспользовавшись ТутЭвакуатор.Ру, вы сможете:</p>
+
+        <div class="flex flex-col xl:flex-row gap-[34px]">
+            <div>
+                <div class="flex gap-4 items-start mb-[32px]">
+                    <img src="assets/icons/Checkmark.svg" alt="">
+                    <p class="text-[26px] mt-[-9px]">получить постоянный доступ к базе надежных перевозчиков Москвы — сервис работает всегда, вне зависимости от воскресных/праздничных дней</p>
+                </div>
+                <div class="flex gap-4 items-start mb-[32px]">
+                    <img src="assets/icons/Checkmark.svg" alt="">
+                    <p class="text-[26px] mt-[-9px]">заказать эвакуатор круглосуточно — 24/7</p>
+                </div>
+                <div class="flex gap-4 items-start mb-[32px]">
+                    <img src="assets/icons/Checkmark.svg" alt="">
+                    <p class="text-[26px] mt-[-9px]">выбрать самое экономически выгодное предложение — цены на эвакуационные услуги рыночные, разница может быть ощутимой</p>
+                </div>
+                <div class="flex gap-4 items-start mb-[32px]">
+                    <img src="assets/icons/Checkmark.svg" alt="">
+                    <p class="text-[26px] mt-[-9px]">договориться с транспортной компанией напрямую — без посредников и комиссионных</p>
+                </div>
+                <div class="flex gap-4 items-start mb-[32px]">
+                    <img src="assets/icons/Checkmark.svg" alt="">
+                    <p class="text-[26px] mt-[-9px]">осуществить эвакуацию авто недорого — без скрытых платежей, неучтенных расходов</p>
+                </div>
+                <div class="flex gap-4 items-start mb-[32px]">
+                    <img src="assets/icons/Checkmark.svg" alt="">
+                    <p class="text-[26px] mt-[-9px]">вызвать эвакуатор в срочном порядке — охвачена Московская область, стоянки спецтехники базируются во многих районах Москвы, подача выполняется оперативно</p>
+                </div>
+            </div>
+            <img class="max-w-[700px] w-full h-full mx-auto" src="assets/images/Man.png" alt="">
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-[100px] rounded-[20px]">
+            <div class="p-12 bg-[#FFF5CC]">
+                <h6 class="font-bold text-[26px] mb-[32px]">Как оплатить заказ на эвакуатор</h6>
+                <p class="text-[26px]">
+                    Услуги по эвакуации вы оплачиваете непосредственно исполнителю – транспортной компании, взявшейся за перевозку вашего ТС. Оплата производится по завершении эвакуации, после выгрузки авто в конечной точке в Москве.
+                    Формы оплаты стандартные для Москвы: наличный/безналичный расчет или банковский перевод. Эварус не взимает комиссионные с клиентов за пользование сервисом.
+                </p>
+            </div>
+            <div class="p-12 bg-[#FFF5CC]">
+                <h6 class="font-bold text-[26px] mb-[32px]">Как оплатить заказ на эвакуатор</h6>
+                <p class="text-[26px]">
+                    Услуги по эвакуации вы оплачиваете непосредственно исполнителю – транспортной компании, взявшейся за перевозку вашего ТС. Оплата производится по завершении эвакуации, после выгрузки авто в конечной точке в Москве.
+                    Формы оплаты стандартные для Москвы: наличный/безналичный расчет или банковский перевод. Эварус не взимает комиссионные с клиентов за пользование сервисом.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-[#F5F5F5] mt-[-200px] pt-[300px] pb-[100px]">
+    <div class="max-w-[1400px] mx-auto">
+        <h1 class="mb-[48px] font-bold text-[40px]">Какой вес может взять на борт эвакуатор</h1>
+        <p class="text-[26px] mb-[26px]">Эвакуатор используют для перевозки всех видов автотранспорта: от небольших квадроциклов до габаритных коммерческих авто. Эвакуатор способен транспортировать автомобили до 8 т.</p>
+        <p class="text-[26px] font-bold mb-[32px]">Виды эвакуаторов, доступные для заказа на ТутЭвакуатор.Ру:</p>
+
+        <div class="relative">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg-white p-[40px] shadow-lg rounded-[20px] max-w-[684px]">
+                            <h6 class="text-xl font-bold mb-[20px]">Эвакуатор с краном-манипулятором и прямой платформой</h6>
+                            <img src="assets/images/ExampleSlide.png" alt="">
+                            <p class="mt-[20px] text-xl">
+                                Компактный и маневренный эвакуатор для транспортировки авто массой до 3,5 т. За счет вылета стрелы манипулятор осуществляет погрузку/разгрузку ТС с расстояния до 5 м. Он удобен для эвакуации автомобилей с узких улиц/дворов, небольших стоянок/парковок Москвы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white p-[40px] shadow-lg rounded-[20px] max-w-[684px]">
+                            <h6 class="text-xl font-bold mb-[20px]">Эвакуатор с манипулятором и ломаной/сдвижной платформой</h6>
+                            <img src="assets/images/ExampleSlide2.png" alt="">
+                            <p class="mt-[20px] text-xl">
+                                Универсальный и надежный эвакуатор для перевозки любых видов транспортных средств, включая крупногабаритные. Этот эвакуатор может быть задействован при сложных условиях.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-white p-[40px] shadow-lg rounded-[20px] max-w-[684px]">
+                            <h6 class="text-xl font-bold mb-[20px]">Эвакуатор с манипулятором и ломаной/сдвижной платформой</h6>
+                            <img src="assets/images/ExampleSlide3.png" alt="">
+                            <p class="mt-[20px] text-xl">
+                                Универсальный и надежный эвакуатор для перевозки любых видов транспортных средств, включая крупногабаритные. Этот эвакуатор может быть задействован при сложных условиях.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-white p-[40px] shadow-lg rounded-[20px] max-w-[684px]">
+                            <h6 class="text-xl font-bold mb-[20px]">Эвакуатор с манипулятором и ломаной/сдвижной платформой</h6>
+                            <img src="assets/images/ExampleSlide4.png" alt="">
+                            <p class="mt-[20px] text-xl">
+                                Универсальный и надежный эвакуатор для перевозки любых видов транспортных средств, включая крупногабаритные. Этот эвакуатор может быть задействован при сложных условиях.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <button class="swiper-button-prev absolute left-[-70px] top-1/2 transform -translate-y-1/2 border border-blue-500 text-blue-500 p-2 w-[52px] h-[52px] rounded-lg shadow hover:bg-blue-100 transition duration-200">
+                    <img src="assets/icons/ArrowLeft.svg" alt="">
+                </button>
+
+                <button class="swiper-button-next absolute right-[-70px] top-1/2 transform -translate-y-1/2 border border-blue-500 text-blue-500 p-2 w-[52px] h-[52px] rounded-lg shadow hover:bg-blue-100 transition duration-200">
+                    <img src="assets/icons/ArrowRight.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-[#FFF5CC]">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="mr-[56px] flex flex-col max-w-full lg:max-w-[644px] ml-auto pt-[60px]">
+            <h1 class="mb-[32px] font-bold text-[40px]">Что необходимо сообщить при заказе эвакуатора</h1>
+            <p class="text-[24px] mb-[26px]">
+                Чтобы выбрать эвакуатор с необходимыми техническими параметрами и минимизировать расходы, при вызове эвакуатора следует указать:
+            </p>
+            <div class="flex gap-4 items-start mb-[32px]">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">марку, модель, год выпуска и полную массу авто</p>
+            </div>
+            <div class="flex gap-4 items-start mb-[32px]">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">характер неисправности ТС</p>
+            </div>
+            <div class="flex gap-4 items-start mb-[32px]">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">состояние ходовой части, трансмиссии, рулевого управления</p>
+            </div>
+            <div class="flex gap-4 items-start mb-[32px]">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">адрес подачи эвакуатора и пункт конечного назначения в Москве</p>
+            </div>
+            <div class="flex gap-4 items-start mb-[32px]">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">наличие ключей от авто и документов, подтверждающих право на управление ТС (водительские права, техпаспорт и доверенность, если вы не собственник авто)</p>
+            </div>
+        </div>
+        <img class="w-auto max-h-[855px] h-full" src="/assets/images/Women.png" alt="">
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 ">
+        <img class="max-h-[1203px] h-full order-2 lg:order-1" src="/assets/images/Empl.png" alt="">
+        <div class="lg:order-2 lg:ml-[56px] max-w-full lg:max-w-[644px] mt-[60px]">
+            <h1 class="mb-[32px] font-bold text-[40px]">Как эвакуировать авто с заблокированными колесами</h1>
+            <p class="text-[24px] mb-[26px]">
+                При помощи сервиса ТутЭвакуатор.Ру вы сможете вызвать эвакуатор в экстренных ситуациях, например, когда колеса авто заблокированы или ходовая ТС критически пострадала в результате аварии.
+            </p>
+            <p class="text-[24px] mt-[24px] mb-[24px]">
+                Перевозка автомобиля с заблокированными колесами возможна несколькими типами эвакуаторов:
+            </p>
+            <div class="flex gap-4 items-start mb-[32px]">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">
+                    Эвакуатор с манипулятором. На ТС устанавливают четыре колесных захвата, закрепленных на широких текстильных стропах. С помощью специальных петель оператор манипулятора регулирует длину строп, чтобы при перемещении на эвакуатор авто не кренилось. Стропы присоединяют к линейной или H-образной траверсе. Кран-манипулятор подхватывает траверсу за проушину, поднимает автомобиль и загружает на платформу эвакуатора.
+                </p>
+            </div>
+            <div class="flex gap-4 items-start">
+                <img src="assets/icons/Checkmark.svg" alt="">
+                <p class="text-[26px] mt-[-9px]">
+                    Эвакуатор с гидроплатформой (без аппарелей) и лебедкой. Авто приподнимают домкратом, под заблокированные колеса устанавливают подкатные тележки. При помощи лебедки авто затягивают на наклонную платформу эвакуатора. После этого платформу эвакуатора приводят в горизонтальное положение.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-[#F5F5F5] pt-[100px] pb-[100px]">
+    <div class="cursor-pointer max-w-[1400px] flex xl:ml-[253px]">
+        <div class=" tab text-[32px] bg-white rounded-t-[20px] py-[20px] px-[50px] w-fit">
+            Стоимость
+        </div>
+        <div class=" tab text-[32px] py-[20px] px-[50px]">
+            Как заказать
+        </div>
+    </div>
+    <div id="tab1" class="tab-content max-w-[1400px] mx-auto bg-white rounded-b-[20px] rounded-r-[20px] shadow-lg p-[60px]">
+        <h1 class="mb-[32px] font-bold text-[40px]">Стоимость вызова эвакуатора для перевозки авто</h1>
+        <p class="text-[26px] mb-[26px]">На сайте Эварус представлены цены, выставленные перевозчиками за стандартную услугу эвакуации авто по Москве и области. Начальная стоимость транспортировки зависит от габаритов и веса ТС: перевозка мотоцикла/малолитражки будет стоить дешевле, чем внедорожника/минивена. Дороже всего обойдется эвакуация неисправной спецтехники и грузового транспорта</p>
+        <p class="text-[26px] mb-[28px] font-bold">На стоимость услуги эвакуатора в Москве влияет ряд факторов:</p>
+
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                класс, масса, степень повреждения транспортируемого авто
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                первоначальное месторасположение ТС в Москве и дальность следования
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                сложность погрузочно-разгрузочных операций
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                дорожные и погодные условия Москвы
+            </p>
+        </div>
+
+        <p class="text-[26px] mb-[26px] mt-[11px]">Окончательная цена зависит от того, куда подавать эвакуатор и где впоследствии выгружать автомобиль: Москва это будет или Московская область. Транспортировка по МО оплачивается согласно прайсу, плюс тариф за каждый км пробега от МКАД. Суммарная оплата увеличится, если машина находится в кювете/яме/гараже/водоеме и подъезд к ней усложнен. Стоимость возрастет и при наличии заблокированных колес/рулевого управления или серьезного повреждения ТС. Все нюансы эвакуации авто вы сможете обсудить с перевозчиком. Ознакомившись с конкретной ситуацией, он озвучит цену и сроки подачи эвакуатора.</p>
+
+        <p class="text-[26px] mb-[28px] font-bold">В каких случаях возможно изменение стоимости услуги после прибытия эвакуатора к месту погрузки авто:</p>
+
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                простой эвакуатора по вине клиента
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                смена маршрута после размещения заказа
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/Checkmark.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                непредвиденное усложнение эвакуации из-за неправильных/неполных данных о ТС
+            </p>
+        </div>
+
+        <p class="mt-[11px] text-[26px]">
+            Во избежание незапланированных трат, сообщите диспетчерской службе подробные сведения о своем автомобиле и обстоятельствах его поломки.
+        </p>
+    </div>
+    <div id="tab2" style="display: none" class="tab-content max-w-[1400px] mx-auto bg-white rounded-b-[20px] rounded-r-[20px] shadow-lg p-[60px]">
+        <h1 class="mb-[32px] font-bold text-[40px]">Стоимость вызова эвакуатора для перевозки авто</h1>
+        <p class="text-[26px] mb-[26px]">Воспользовавшись онлайн-ресурсом Эварус, вы сократите время на поиск эвакуатора в Москве, МО и закажете услугу по оптимальной цене. Вам не придется обзванивать знакомых или долго искать телефон эвакуатора в интернете</p>
+        <p class="text-[26px] mb-[28px] font-bold">Проанализируйте предложения на нашем сайте, выберите лучшие условия и стоимость перевозки. Как вызвать эвакуатор с помощью онлайн-сервиса ТутЭвакуатор.Ру:</p>
+
+        <div class="flex gap-4 items-start mb-[24px]">
+            <img src="assets/icons/1.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Ознакомьтесь с картой Москвы и Московской области, на которой желтыми маркерами обозначены стоянки эвакуаторов.
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[24px]">
+            <img src="assets/icons/2.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Увеличьте масштаб и определите, какой из адресов находится рядом с местом вашей дислокации
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[24px]">
+            <img src="assets/icons/3.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Выберите ближайший эвакуатор и нажмите на соответствующий маркер
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[24px]">
+            <img src="assets/icons/4.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Просмотрите детальную информацию о перевозчике: возможные способы погрузки ТС, комплектацию автопарка, типы транспортируемых авто прайс с ценами
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[24px]">
+            <img src="assets/icons/5.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Кликните по голубому полю внизу карточки перевозчика и возьмите телефонный номер компании
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[24px]">
+            <img src="assets/icons/6.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Созвонитесь с диспетчером фирмы, обсудите детали эвакуации в Москве/МО и стоимость заказа
+            </p>
+        </div>
+        <div class="flex gap-4 items-start mb-[17px]">
+            <img src="assets/icons/7.svg" alt="">
+            <p class="text-[26px] mt-[-9px]">
+                Сравните цены и условия перевозки у нескольких компаний, выберите наиболее подходящий для себя вариант
+            </p>
+        </div>
+    </div>
+
+
+</section>
+
+<footer class="bg-[#586C75] h-[240px] flex items-center">
+    <div class="flex max-w-[1400px] w-full mx-auto justify-between items-center">
+        <img class="max-w-[112px] h-auto" src="assets/icons/LogoBlue.svg" alt="">
+        <p class="uppercase text-white">Вызвать эвакуатор</p>
+        <p class="uppercase text-white">Добавить эвакуатор на сайт</p>
+        <p class="uppercase text-white">Помощь</p>
+        <p class="uppercase text-white">Правила оплаты</p>
+        <p class="uppercase text-white">Защита персональных данных</p>
+    </div>
+</footer>
+
+<style>
+    .swiper-container {
+        width: 100%; /* Убедитесь, что контейнер полностью вписывается в родителя */
+        overflow: hidden; /* Препятствует появлению скроллов */
+    }
+
+    .swiper-slide {
+        flex-shrink: 0; /* Не позволяйте слайдам сжиматься */
+        width: 100%; /* Делаем слайды в 100% ширины контейнера */
+        box-sizing: border-box; /* Учитываем отступы и границы в ширину */
+    }
+
+    body {
+        overflow-x: hidden; /* Скрыть горизонтальный скролл на странице */
+    }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        display: none
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        display: none
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            slidesPerGroup: 2,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    });
+
+    const tabOneContent = document.querySelector("#tab1")
+    const tabTwoContent = document.querySelector("#tab2")
+    let tabs = document.querySelectorAll(".tab")
+    tabs.forEach((tab, i) => {
+        tab.onclick = (e) => {
+                tabs.forEach((tab) => {
+                    tab.className = "tab text-[32px] py-[20px] px-[50px]"
+                })
+                e.target.className += " bg-white rounded-t-[20px] w-fit"
+                if(i == 0) {
+                    tabOneContent.style.display = "block"
+                    tabTwoContent.style.display = "none"
+                } else {
+                    tabOneContent.style.display = "none"
+                    tabTwoContent.style.display = "block"
+                }
+        }
+    })
+</script>
+</body>
+</html>
